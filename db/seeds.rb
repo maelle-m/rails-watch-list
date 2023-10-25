@@ -7,7 +7,7 @@
 #   Character.create(name: "Luke", movie: movies.first)
 require 'faker'
 
-10.times do |i|
+20.times do |i|
   movie = Movie.create(
     title: Faker::Book.title,
     overview: Faker::Lorem.paragraph,
